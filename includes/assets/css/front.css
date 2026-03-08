@@ -1,0 +1,108 @@
+.stretch-careers-listing {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.stretch-career-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    background: #eef2ff;
+    color: #3730a3;
+}
+
+.stretch-career-card__title {
+    margin: 0;
+    font-size: 1.35rem;
+    line-height: 1.25;
+}
+
+.stretch-career-card__title a {
+    color: #0f172a;
+    text-decoration: none;
+}
+
+.stretch-career-card__title a:hover {
+    color: #1d4ed8;
+}
+
+.stretch-career-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.stretch-career-meta span {
+    background: #f8fafc;
+    color: #334155;
+    border-radius: 999px;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+}
+
+.stretch-career-card__excerpt {
+    color: #475569;
+    line-height: 1.65;
+}
+
+.stretch-career-card__salary {
+    color: #0f172a;
+    font-weight: 600;
+}
+
+.stretch-career-card__actions,
+.stretch-career-single-actions {
+    margin-top: 4px;
+}
+
+.stretch-career-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 18px;
+    border-radius: 12px;
+    background: #0f172a;
+    color: #ffffff !important;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.stretch-career-button:hover {
+    transform: translateY(-1px);
+    opacity: 0.92;
+}
+
+.stretch-careers-empty {
+    padding: 28px;
+    border: 1px dashed #cbd5e1;
+    border-radius: 16px;
+    color: #475569;
+    background: #f8fafc;
+}
+
+.stretch-career-single-box {
+    margin-top: 32px;
+    padding: 24px;
+    border-radius: 20px;
+    background: #f8fafc;
+    border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.stretch-career-single-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px 20px;
+    margin-bottom: 18px;
+}
+
+@media (max-width: 767px) {
+    .stretch-career-single-grid {
+        grid-template-columns: 1fr;
+    }
+}

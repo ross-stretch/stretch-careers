@@ -1,0 +1,29 @@
+.stretch-careers-admin-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.stretch-careers-admin-grid p {
+    margin: 0;
+}
+
+#stretch-career-details .inside {
+    padding: 20px;
+}
+
+#stretch-career-details label {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+#stretch-career-details input,
+#stretch-career-details select {
+    min-height: 42px;
+}
+
+@media (max-width: 782px) {
+    .stretch-careers-admin-grid {
+        grid-template-columns: 1fr;
+    }
+}
